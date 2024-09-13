@@ -4,5 +4,7 @@
   /* text-align: center; */
   background-color: white;
   color: black;
+  height: auto;
+  width: fit-content;
 }
 
