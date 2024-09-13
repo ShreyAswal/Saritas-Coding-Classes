@@ -1,4 +1,5 @@
-import React from "react";
+// import React from "react";
+import { FaStar } from "react-icons/fa";
 
 const ReviewCard = () => {
   return (
@@ -12,8 +13,14 @@ const ReviewCard = () => {
         <h1 className="text-gray-600 font-medium">Chirag Chavda</h1>
         <p className="text-gray-500 mt-1">- California, USA</p>
       </div>
-      <div className="mt-16">
-        <p className="p-2 ">
+      <div className="mt-10">
+        <div className="flex justify-center">
+          {[...Array(5)].map((_: undefined, i) => {
+            return <FaStar key={i} className="text-blue-400 h-8 w-8" />;
+          })}
+          {/* <h1>Stars here!</h1> */}
+        </div>
+        <p className="p-2 mt-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
           inventore maxime totam beatae hic laborum impedit odio aut accusamus
           doloribus.
