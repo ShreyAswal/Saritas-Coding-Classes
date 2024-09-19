@@ -4,6 +4,7 @@
 import LandingPage from "../../components/LandingContainer";
 import Stats from "../../components/Stats";
 import Review from "../../components/ReviewContainer";
+import Footer from "../../components/footer/Footer";
 // import ReviewCard from "../../components/ReviewCard";
 
 const Home = () => {
@@ -17,6 +18,8 @@ const Home = () => {
           <LandingPage />
           <Stats />
           <Review />
+          <Footer />
+
           {/* <ReviewCard/> */}
         </div>
       </div>
