@@ -57,32 +57,3 @@ const LandingPage: React.FC = () => {
 
 export default LandingPage;
 
-// <button>
-//           <a href="https://calendly.com/aswalshrey/30min">
-//             Schedule an appointment!
-//           </a>
-//         </button>
-//         {/* <!-- Calendly link widget begin --> */}
-//         <Link
-//           to="https://calendly.com/assets/external/widget.css"
-//           rel="stylesheet"
-//         >
-//           {" "}
-//           Book a meeting!
-//           <script
-//             src="https://calendly.com/assets/external/widget.js"
-//             type="text/javascript"
-//           ></script>
-//           {/* <!-- Calendly link widget end --> */}
-//         </Link>
-//         {/* <!-- Calendly link widget begin --> */}
-//         <link
-//           href="https://calendly.com/assets/external/widget.css"
-//           rel="stylesheet"
-//         >
-//           <script
-//             src="https://calendly.com/assets/external/widget.js"
-//             type="text/javascript"
-//           ></script>
-//           {/* <!-- Calendly link widget end --> */}
-//         </link>
