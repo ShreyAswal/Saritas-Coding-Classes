@@ -1,7 +1,15 @@
-import React from "react";
+// import React from "react";
 import ReviewCard from "./ReviewCard";
 const Review = () => {
   const content = [
+    {
+      name: "N.Swara",
+      image:"https://avatar.iran.liara.run/public/41",
+      // location: "California, USA",
+      stars: 5,
+      headline: "Exceptional Guidance: I Scored 100 in Computers!",
+      review: "Sarita ma'am is very patient and a great teacher. She makes sure every student understands the subject well. The notes are really helpful and honestly all I needed for my board exams. It is fully because of her efforts as a teacher that computers was easy for me and that I could get 100 in my boards.",
+    },
     {
       name: "Lyndsay",
       image: "https://avatar.iran.liara.run/public/75",
@@ -10,15 +18,6 @@ const Review = () => {
       headline: "Good communication, easy to understand",
       review:
         "Very pleased, She listened to my needs well and made it easy to understand. Good communicator. Would recommend service!",
-    },
-    {
-      name: "Rajesh Kumar Saha",
-      image: "https://avatar.iran.liara.run/public/34",
-      // location: "California, USA",
-      stars: 5,
-      headline: "Professional and dedicated",
-      review:
-        "It was a great experience. Her professionalism and dedication is unmatched.",
     },
     {
       name: "Pooja",
@@ -36,8 +35,17 @@ const Review = () => {
       // location: "California, USA",
       stars: 5,
       headline:
-        "From Failing Grades to 99/100 in Boards - Pursuing Btech in AI",
+      "From Failing Grades to 99/100 in Boards - Pursuing Btech in AI",
       review: `I had an amazing experience with mam, I thought of leaving computer science as I couldn't perform well in school then my mom told me about joining a tuition to see if I really can not pursue computers. After only a few months of classes my confidence was restored and even in boards I got 99 out of 100 all due credit to mam. Now I am pursuing btech in ai only from mahindra university.`,
+    },
+    {
+      name: "Rajesh Kumar Saha",
+      image: "https://avatar.iran.liara.run/public/34",
+      // location: "California, USA",
+      stars: 5,
+      headline: "Professional and dedicated",
+      review:
+        "It was a great experience. Her professionalism and dedication is unmatched.",
     },
     {
       name: "Nehal Agrawal",
@@ -46,7 +54,8 @@ const Review = () => {
       stars: 5,
       headline: "Helped Me Overcome My Fear of Computer Science",
       review: "Sarita ma'am is an amazing teacher , the way she explained topics were very clear and concise . She helped me get over my fear of the subject.The credit of me taking computer science engineering as my degree goes to her",
-    }
+    },
+    
   ];
 
   return (
