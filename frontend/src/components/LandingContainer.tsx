@@ -14,7 +14,7 @@ declare global {
 const LandingPage: React.FC = () => {
   const handleCalendlypopup = () => {
     window.Calendly.initPopupWidget({
-      url: "https://calendly.com/aswalshrey/30min",
+      url: "https://calendly.com/aswal-sarita98/30min",
     });
     return false;
   };
@@ -56,4 +56,3 @@ const LandingPage: React.FC = () => {
 };
 
 export default LandingPage;
-
